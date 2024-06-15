@@ -1,0 +1,56 @@
+.container{
+    height: 550px;
+    width: 550px;
+    border: 1px solid green;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px 100px 100px; */
+    /* grid-template-columns: repeat(2,200px); */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    /*
+    you can use shorthand property of grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    like this grid-template-columns: repeat(2, 200px);
+    here repeat 2 means add two column with the width of 200px. also we can use fr (i.e fraction value) to use fr do this grid-template-columns: repeat(2, 1fr);
+
+    Todo: The fr unit
+    *- Grid introduces a new fr unit, which stands for fraction. The good thing about using the fr unit is that it takes care of calculations for you. Using fr avoids margin and padding issues. With % and em etc. it becomes a math equation when calculating grid-gap. If you used fr unit, it’ll automatically calculate both column and gutter sizes and adjust the size of the columns accordingly. Plus there will be no bleeding gaps at the end either.
+
+    # More about fraction visit👉 https://university.webflow.com/lesson/fractional-unit-overview?topics=layout-design
+
+    */
+    grid-template-rows: 100px 100px 100px 100px 100px 100px ;
+    /* After defining the grid-template column and row property then do the inspect and click on the Grid to checkout the real output */
+    /* !⚠️grid-gap: 10px;
+    !this grid-gap Property is obsolete(removed). you can use gap property or row-gap or column-gap instead of grid-gap. */
+    gap: 10px;
+    grid-template-areas: 
+    'header header'
+    /* 1st row contain two column which is now header */
+    'content aside'
+    /* 2nd row of 1st column is content and 2nd column is aside*/
+    'footer footer';
+    /* 3rd row contain two column which is now footer */
+
+}
+
+.item{
+    background-color: yellow;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item:nth-child(1){
+    grid-area: header;
+}
+.item:nth-child(2){
+    grid-area: content;
+}
+.item:nth-child(3){
+    grid-area: aside;
+}
+.item:nth-child(4){
+    grid-area: footer;
+}
+

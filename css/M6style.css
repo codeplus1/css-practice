@@ -1,0 +1,22 @@
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 20px;
+}
+a:hover{
+    color: rgb(0, 255, 13);
+}
+
+.home:visited{
+    color: chocolate;
+}
+a:active{
+    color: red;
+}
+
+nav{
+    margin-top: 50px;
+    float: inline-end;
+}
+

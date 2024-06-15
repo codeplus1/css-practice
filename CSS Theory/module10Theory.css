@@ -1,0 +1,69 @@
+/* Todo: Advance CSS Techniques*/
+/*
+Todo: Pseudo-classes and Pseudo-elements
+
+?nth-child
+*- it selects elements based on their position within a parent element.
+?first-child
+*- it selects the first child element of a parent.
+?last-child
+*- it selects the last child element of a parent.
+?only-child
+*- it selects an only child element of its parent.
+? :before and :after
+*- they are used to insert content before or after an element's content.
+#visit for selectors: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+
+
+Todo: css variables (Customs Properties)
+?CSS Variables
+*- They allow you to store values in one place, which can be reused throughout your stylesheet.
+
+?declaring Variables
+*- Use the '--variable-name' syntax to declare a variable.
+?Using Variables
+*- You can use them anywhere in your CSS code file by using var(--variable-name).
+#visit:👉 https://www.freecodecamp.org/news/what-are-css-variables-and-how-to-use-them/
+
+
+Todo: Media Queries for Responsive Design
+?Media queries
+*- Media queries are used to apply different styling rules depending on the user’s device Screen/type(Mobile-phone, Desktop, tablet, etc...).
+*- It is used to apply different styles depending upon the device’s width.
+?Syntax
+*- Use @media followed by the query condition and the CSS rules to apply
+*- Common Media Query BreakPoints: Max-Width for small Screens and Min_width for Larger Screens.
+
+visit👉 
+#1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+#2. https://css-tricks.com/a-complete-guide-to-css-media-queries/
+
+#3. https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries
+*/
+
+/*
+Todo: Implementing CSS Best Practices.
+
+?organize your CSS Code
+*- Keep your css code Organized by grouping related styles together it makes your CSS code easier to read and maintain.
+#for eg: if you start writing css code then first write Header css, then Hero Section, then Navbar, etc,...
+!not like first you write Navbar, footer, header and soon.
+?Avoid long lines of code.
+?Use comments to explain your code.
+*- Add comments to clarify sections and styles.
+?Keep related styles together.
+*- Group similar styles into separate classes or IDs.
+?naming Convention
+*- Use meaningful class and ID names to improve readability.
+?Maintainability
+*- Minimize redundancy and avoid overuse of !important.
+
+# we use '!important' property at that time when some styling property or css code is not working or simply we can use it for debugging the css code. for example if we want to change the font-size but it didn't work then we simply write that css font-size code like this(font-size: 20px !important)
+?Cross-Browser Compatibility
+*- Test your styles across different browser.
+
+
+`
+
+*/

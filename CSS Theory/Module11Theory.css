@@ -1,0 +1,69 @@
+/* !⚠️This Module 11 and Module 12 is only for information purpose because we are going to write pure CSS in this tutorial so, we are not going to Learn this module in this tutorial.
+*we'll learn it on another Tutorial.
+*/
+/* Todo: CSS Pre-processor (Bonus) */
+
+/*
+Todo: Introduction to CSS Pre-processors
+*- CSS pre-processors are tools that allow you to write styles in a different language, then it gets compiled into regular CSS.
+?1. What are CSS pre-processors?
+*- CSS preprocessors are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inheritance, mixins, functions, and mathematical operations.
+
+*- CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility.
+#visit:👉 https://www.freecodecamp.org/news/css-preprocessors/
+#visit: https://www.scaler.com/topics/css-preprocessor/
+
+#visit:  https://raygun.com/blog/css-preprocessors-examples/#:~:text=preprocessor%20for%20you%3F-,What%20is%20a%20CSS%20preprocessor%3F,%2C%20functions%2C%20and%20mathematical%20operations.
+?2. Why use a CSS pre-processor?
+*- to Write cleaner, more maintainable code.
+*- to Use variables and functions for reusable values/code snippets
+#visit: 👉https://sherocommerce.com/what-is-a-css-preprocessors-why-use-them/
+?3. Popular CSS pre-processors
+*-Sass, LESS, Stylus are popular CSS preprocessors.
+!visit
+#1. https://sass-lang.com/
+#2. https://lesscss.org/
+#3. https://stylus-lang.com/
+
+?5. Advantages & Disadvantage of using a CSS pre-processor
+#Visit https://psdtowp.net/css-preprocessors.html
+
+
+*/
+
+
+/* Todo: Variables and Mixins */
+/*
+?variables
+*- Declare variables to store reusable values.
+?Mixins
+*- A mixin is like a function that can take arguments and return multiple styles.
+*- They allow you to define a block of properties in one place and reuse it everywhere.
+?Example
+    @mixin border($color){
+    border: solid $color;
+    }
+
+?Nesting
+*- Nested selectors let you apply styles within other selectors.
+?Example
+h1{
+    color: blue;
+    p {
+    font-size: 18px;
+        }
+    }
+
+?Inheritance
+*- Inheritance allows child elements to inherit the same style as their parent element.
+    ?Example
+h1{
+    color: red;
+    }
+    p{
+    @extend h1; // This will make all <p> tags have the same color as its parent <h1>.
+    !If there's no parent selector, this would be equivalent to writing "color:red;" on every single <p> tag.
+
+    !If there's no parent <h1>, this won't work.
+    }
+*/

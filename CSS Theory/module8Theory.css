@@ -1,0 +1,160 @@
+/* Todo: CSS Grid */
+/* !visit
+#1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
+
+#2. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+
+#3. https://css-tricks.com/snippets/css/complete-guide-grid/
+
+#4. https://learncssgrid.com/
+
+*/
+/*
+todo: Introduction to CSS Grid
+?- What is CSS grid?
+*-A CSS Grid is a two dimensional layout system that enables you to create complex layouts with rows and columns.
+?Grid Container
+*- The parent element that holds grid items is called Grid Container.
+?Grid Items
+*- The child elements inside the grid container is called Grid Items.
+Todo: Defining Grids
+?display
+*- it converts an element into a grid container.
+?grid-template-columns
+*- It defines the number of columns in the grid and their sizes.
+?grid-template-rows
+*- It defines the number of rows in the grid and their sizes.
+?grid-template-areas
+*- it defines named grid area for easy layout
+
+Todo: placing items in the Grid
+?grid-column
+*- This property specifies which column(s) an item should appear in.
+?grid-row
+*- This property specifies which row(s) an item should appear in.
+?grid-area
+*- This property allows you to place an item at any location within the grid, by referencing its name defined with grid-template-areas.
+*- place an item in a named grid area.
+
+
+
+
+?- How does Grid Layout Algorithm work?
+*- It works by placing grid items into cells of a grid and distributing space between them.
+
+?- What are Grid Tracks?
+*- They are horizontal or vertical lines in the grid layout.
+
+?- What are Grid Lines?
+*- They are the actual lines drawn on the page, which represent the tracks.
+
+?- What are Grid Areas?
+*- They are named areas within the grid layout.
+
+
+
+todo: Some Interview questions on Grid Layout
+?- What is a grid container?
+?- What is a grid item?
+?- What is a grid line?
+?- What is a grid track?
+?- What is a grid area?
+?- What is a grid cell?
+?- What is a grid gap?
+?- What is a grid row?
+?- What is a grid column?
+?- What is a grid template rows / columns?
+?- What is a grid auto flow?
+?- What is a grid auto placement?
+?- What is a grid alignment?
+?- What is a grid content alignment?
+?- What is a grid positioning direction?
+?- What is a grid positioning alignment?
+?- What is a grid positioning offset?
+?- What is a grid positioning span?
+?- What is a grid positioning start end?
+?- What is a grid positioning repeat() function?
+?- What is a grid positioning fr unit?
+?- What is a grid positioning minmax() function?
+?- What is a grid positioning fit-content() value?
+?- What is a grid positioning max-content() value?
+?- What is a grid positioning stretch() value?
+?- What is a grid positioning baseline() value;
+?- What is a grid positioning subgrid();
+?- What is a grid positioning span() function;
+?- What is a grid positioning repeat() function;
+?- What is a grid positioning fr unit;
+?- What is a grid positioning minmax() function;
+?- What is a grid positioning fit-content() value;
+?- What is a grid positioning max-content() value;
+?- What is a grid positioning stretch() value;
+?How do we define a grid in HTML?
+?What are some properties of grids?
+?How can we specify rows and columns?
+?How can we create named lines for our grid?
+?How can we use auto-placement algorithm?
+?How can we control the size of grid cells?
+?How can we place content within grid cells?
+?How can we span multiple grid cells horizontally or vertically?
+?How can we align grid items along both axes?
+?How can we make grid items stretch across all available space?
+?How can we make grid items fill up remaining space?
+?How can we make grid items grow or shrink based on their content?
+?How can we make grid items move freely into empty spaces?
+?How can we make grid items stick together?
+?How can we make grid items overlap each other?
+?How can we make grid items hide themselves when there's not enough room?
+?How can we make grid items wrap onto new lines?
+?How can we make grid items flow from one side to another?
+?How can we make grid items stack on top of each other?
+?How can we make grid items flip direction?
+?How can we make grid items rotate 90 degrees clockwise?
+?How can we make grid items scale down?
+?How can we make grid items scale up?
+?How can we make grid items skew?
+?How can we make grid items distort?
+?How can we make grid items morph?
+?How can we make grid items change shape?
+?How can we make grid items transform?
+?How can we make grid items animate?
+?How can we make grid items transition?
+?How can we make grid items fade in and out?
+?How can we make grid items slide in and out?
+?How can we make grid items bounce in and out?
+?How can we make grid items shake in and out?
+?How can we make grid items spin around?
+?How can we make grid items blur in and out?
+?How can we make grid items brighten and dim?
+?How can we make grid items color shift?
+?How can we make grid items texture change?
+?How can we make grid items wave?
+?How can we make grid items ripple?
+?How can we make grid items pulse?
+?How can we make grid items flash?
+?How can we make grid items glow?
+?How can we make grid items sparkle?
+?How can we make grid items twitch?
+?How can we make grid items wiggle?
+?How can we make grid items wobble?
+?How can we make grid items sway?
+?How can we make grid items swing?
+?How can we make grid items tilt?
+?How can we make grid items turn?
+?How can we make grid items roll?
+?How can we make grid items slide?
+?How can we make grid items crawl?
+?How can we make grid items creep?
+?How can we make grid items stalk?
+?How can we make grid items lurk?
+?How can we make grid items prowl?
+?How can we make grid items paw at the ground?
+?How can we make grid items scratch the air?
+?How can we make grid items sniff around?
+?How can we make grid items investigate?
+?How can we make grid items explore?
+?How can we make grid items search for something?
+?How can we make grid items look for something?
+
+
+
+*/

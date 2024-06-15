@@ -1,0 +1,71 @@
+
+/* Element selector Declaration */
+h6{
+    color: aqua;
+    font-size: 30px;
+}
+h5{
+    color: rgb(19, 229, 106);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* class Selector declaration 
+todo: To use class selector we use period (.) sign and then after class name.
+*/
+.heading{
+    color: chartreuse;
+}
+
+.paragraph{
+    color: whitesmoke;
+    background-color: black;
+    font-size: 15px;
+}
+
+/* class Selector declaration 
+todo: To use ID selector we use Hash (#) sign and then after ID name.
+*/
+#selectme{
+    color: red;
+    font-size: 25px;
+}
+#pid{
+    color: brown;
+    background-color: aliceblue;
+}
+
+/* Descendent Selector */
+ul li{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* pseudo-class selector 
+!to use pseudo-class selector first select class or id or any element then write colon(:) and after that write pesudo-class selector name(i.e. ':hover', ':paused', ':active', etc..)  then write your style.
+*/
+.paragraph:hover{
+    font-size: 35px;
+    color: cornflowerblue;
+    background-color: white;
+
+}
+ /* ! in <ul> we have 4 list item (i.e <li>) and suppose we have to change the color or do changes with 3rd <li> then we can use ':nth-child()' property of pseudo-class selector. */
+
+ul li:nth-child(3){
+    color: blue;
+    font-size: 35px;
+}
+
+/* pseudo-element selector */
+.selector2::first-letter{
+    font-size: 100px;
+}
+h2::before{
+    content: url(/images/Rajarshi_Janak_University_logo.jpg);
+}
+
+h2::after{
+    content: url(/images/Logo-jpg.jpg);
+}
+

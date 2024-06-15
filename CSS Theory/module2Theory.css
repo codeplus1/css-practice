@@ -1,0 +1,40 @@
+
+/* Todo: Selector and Declarations */
+/* ?Selectors: it determines which HTML elements the styles should be applied to. selectors can be based on element name, class name, IDs, attributes and more. */
+
+/* ?Declaration: it consists of property-value pairs enclosed in curly braces "{}". Each declaration specify how a particular property should be styled (e.g., "Color:blue") */
+
+/* Todo: Basic Types of CSS selectors */
+/* 
+?Element Selector: 
+*It target specific HTML elements (e.g., p, h1, div, h2, h5, etc...) for styling
+
+?class Selector: 
+*It target elements with a specific class attribute (e.g, '.highlight' , '.myclass', etc... ) to apply shared styles.
+
+?ID selector: 
+*It target a unique element with specific ID attribute (e.g., '#header', '#saroj', etc..) for individual styling.
+
+?Descendent Selector:
+*It targets an element that is a descendant(i.e. child) of another element like <li> is the child of <ul>
+*/
+
+/* !Note: The main difference betwn ID and Class Selector is:
+? Id selector can be Roll no of student which always should be unique in classroom. so we cant give same id to multiple elements.
+!but
+?class selector can be name of students where there is multiple students with the same name in classroom.so we can give same class name to multiple Elements.
+
+#for_More_Visit👉 https://w3schools.com/cssref/css_selectors.php
+#visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+*/
+
+
+
+/* Todo: Advance Types of CSS selectors */
+/*
+?pseudo-class selector:
+*it represents states of elements that can't be targeted using simple selector.(eg. ':hover', ':active', ':nth-child()', etc..)
+
+?pseudo-elements:
+*it allows us to style specific parts of an elements (eg. '::after', '::before', '::backdrop', etc...) to add content or decoration.
+*/

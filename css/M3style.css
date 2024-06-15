@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@font-face {
+    /* set the font-family name in single quote as you want then use that name where you want to apply that font.*/
+    font-family: 'donkey';
+    src: url(/fonts/Kenia/Kenia-Regular.ttf);
+}
+
+
+
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+font-size: 16px;
+/* font-size: 1em; */
+/* font-size: 1rem; */
+}
+
+h3{
+/* font-weight: normal; */
+/* font-weight: 600; */
+font-weight: 900;
+}
+
+h4{
+/* font-style: italic; */
+font-style: oblique;
+}
+
+h5{
+/* text-transform: capitalize; */
+/* text-transform: uppercase; */
+text-transform: none;
+}
+
+h6{
+/* font-size: 30px; */
+/* text-decoration: dotted; */
+text-decoration: line-through;
+}
+
+/* using google fonts in <p> tag */
+p{
+    font-family: 'Dancing Script', cursive;
+}
+
+/* using external downloaded fonts */
+quote{
+font-family: donkey;
+/* text decoration and text-decoration-line both are similar we can use anyone but text-decoration is a better choice because it it supported by every browser, even very old ones. */
+/* text-decoration: overline; */
+text-decoration-line: underline;
+text-decoration-style: dashed;
+text-decoration-color: red;
+text-align: center;
+line-height: 2em;
+}

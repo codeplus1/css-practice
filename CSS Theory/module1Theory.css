@@ -1,0 +1,37 @@
+/* module 1: introduction to css */
+/*# visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/background_and_borders/Using_CSS_multiple */
+
+/* TODO: introduction 
+*css (cascading style sheet) is a crucial component of web development that allows us to style and visually design web pages. it is used to control the layout, colors, typography, and other visual aspects of our HTML content.
+*/
+
+/* TODO: Types of CSS:
+*Inline CSS
+*Internal CSS
+*External CSS 
+*/
+
+/* Todo: Inline CSS */
+/* *styles applied directly within the HTML elements using "Style" attribute.this method is suitable for quick styling of individual elements.
+*/
+
+
+/* Todo: Internal CSS */
+/* *internal CSS are placed within the "<style>" element in the HTML "<Head>" section. these styles apply to the entire page and are useful for small projects.
+*/
+
+
+/* Todo: External CSS */
+/* *External CSS are stored in a seperate ".CSS" file and linked to the HTML document using the "<link>" element. this method promotes separation of concerns and reusability. 
+*/
+
+/* Todo: Selector and Declarations */
+/* ?Selectors: it determines which HTML elements the styles should be applied to. selectors can be based on element name, class name, IDs, attributes and more. */
+
+/* ?Declaration: it consists of property-value pairs enclosed in curly braces "{}". Each declaration specify how a particular property should be styled (e.g., "Color:blue") */
+
+/* Todo: Linking CSS to HTML */
+/* ?To link an external CSS file to an HTML document: */
+/* *1. Create a new 'FileName.css' and write your styles.
+    *2. in the HTML '<Head>' section, add a '<link>' element with the 'rel', 'type' and 'href' attributes pointing to the CSS file. 
+*/

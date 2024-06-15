@@ -1,0 +1,81 @@
+/* HEx code */
+/*
+!for color code:
+#visit:👉 https://htmlcolorcodes.com/color-picker/?hex=00FF33 
+#visit:👉 https://colorhunt.co/
+*/
+
+h1{
+color: #00ff33;
+}
+
+/* RGB */
+h2{
+color: rgb(125, 39, 210);
+}
+
+/* HSL */
+h3{
+color: hsl(30, 200%, 50%);
+}
+
+p{
+    color: white;
+    border: 12px solid;
+    border-color: #00ff33;
+    border-top-color: red;
+    border-bottom-color: yellow;
+    background-color: #567895;
+    border-top-width: medium;
+    /*# for more about CSS border visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/border */
+}
+
+/* linear gradient */
+div{
+    /* you can also set the direction to the color and stop length like below */
+    background: linear-gradient(to right, red 40%, blue);
+    font-size: 30px;
+}
+/* radical gradient */
+h4{
+    /* background: radial-gradient(circle at top right, red,yellow); */
+    /* background: radial-gradient(circle, red,yellow); */
+    background: radial-gradient(ellipse, red,yellow);
+    font-size: 40px;
+    height: 300px;
+    width: 300px;
+    
+/* here color red is in the center and yelloe is in the radius. */
+}
+
+/*
+#visit for color stops in gradient: https://drafts.csswg.org/css-images-4/#gradients
+!note:
+# to set direction in liner-gradient we have to use 'to direcionName'
+!but
+# to set direction in radial-gradient we have to use 'at directionName'
+*/
+
+
+.header{
+    background-image: url(/images/new6.png);
+    /* background-image: url(../images/rating.png); */
+    height: 800px;
+    font-size: 50px;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: repeat-y;
+    /* background-position: left bottom; */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    /* display: flex; */
+
+    /* #for more about background-image visit👉 https://drafts.csswg.org/css-backgrounds/#propdef-background-image; */
+}
+
+/*
+#for stock image visit 👇
+# 👉 https://www.pexels.com/ 
+# 👉 https://pngtree.com/
+# 👉 https://pixabay.com/
+*/

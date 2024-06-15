@@ -1,0 +1,79 @@
+/* For Block, inline and inline-block */
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: beige;
+    font-size: 100px;
+    text-align: center;
+    border: 5px solid black;
+    /* border Syntax: <line-width> || <line-style> || <color> */
+}
+
+.blue{
+    background-color: blue;
+    /* display: inline; */
+    display: inline-block;
+}
+.red{
+    /*margin: top, right, bottom, left*/
+    margin: 25px 0px 0px 0px;
+    display: inline;
+    /* display: inline-block; */
+    float: right;
+}
+.orange{
+    background-color: orange;
+    margin: 25px 0px 0px 0px;
+    /* display: inline; */
+    display: inline-block;
+    /* float property is used to move the element from one end to other end */
+   /* float: right; */
+
+}
+/* Box Sizing */
+.boxSizing{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: beige;
+    font-size: 20px;
+    text-align: center;
+    /* border Syntax: <line-width> || <line-style> || <color> */
+    border: 15px solid black;
+}
+
+.green{
+    background-color: green;
+    box-sizing: border-box;
+    padding: 50px;
+    /* display: inline;
+    display: inline-block; */
+}
+
+.yellow{
+    background-color: yellow;
+    box-sizing: content-box;
+    /* padding: 50px; */
+    color: black;
+    /* display: inline;
+    display: inline-block; */
+}
+
+
+
+/* position CSS */
+  .pbox {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }

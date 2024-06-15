@@ -1,0 +1,57 @@
+/*
+Todo: CSS Variables
+! A common best practice is to define custom properties on the :root pseudo-class, so that it can be applied globally across your HTML document:
+*/
+:root{
+--firtColor: #ff0000;
+--secondcolor: #008000;
+--thirdcolor: #9acd32;
+}
+
+
+
+ul li:nth-child(3){
+    color: var(--firtColor);
+    font-size: 30px;
+
+}
+
+ul li:first-child{
+
+    color: var(--secondcolor);
+    font-size: 30px;
+
+}
+
+ul li:last-child{
+
+    color: var(--thirdcolor);
+    font-size: 30px;
+
+}
+
+ul li::before{
+    content:"<Hello ";
+}
+
+ul li::after{
+    content:" added >";
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+    ul li{
+        list-style-type: none;
+        color:blue;
+        font-size: 200px;
+    }
+}
+
+/*
+*here @media screen and Max-width: 768px meansif the device is 768px and more than that then show the above CSS style which is not written in media screen.
+!but when the screen width is less than 768px then shows those CSS style which is written inside media Screen
+*/

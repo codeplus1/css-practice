@@ -1,0 +1,40 @@
+
+/*
+Todo: Styling Links and Lists
+
+!Styling Links
+?link
+*link represents unvisited links.
+
+? :visited
+* :visited represents visited links.
+
+? :active
+* :active represents active links (links the user is currently clicking on).
+
+? :hover
+* :hover represents links when the mouse pointer is over them.
+
+? :focus
+* :focus represents a link that has focus.
+
+? :target
+* :target represents a link that is the target of the current URL.
+*/
+
+
+/*
+!Styling List
+
+?list style
+* list-style specifies appearance of list markers (bullets or numbers).
+
+?list-style-type
+* list-style-type specifies type of list marker in list item. (e.g, disc, decimal, square)
+
+?list-style-image
+* list-style-image specifies image to be used as list marker.
+
+?list-style-position
+* list-style-position specifies position of list marker relative to content. (outside/inside the content box)
+*/

@@ -1,0 +1,42 @@
+.container{
+    /* height: 500px;
+    width: 500px; */
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: start; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* align-items: center; */
+    align-items: baseline;
+    /* Base line put the items into top & when we use align-items property then it removes all the extra spaces.*/
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flexwrap allows items to fit into the next line when items doesn't fit into the same line.
+    open browser inspect it then check the result.
+    */
+}
+
+.item{
+    border:1px solid black;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.item:nth-child(1){
+    /* font-size: 2rem; */
+    flex-grow: 1;
+    flex: 1 0 700px;
+    /* flex combines all three properties together and we don't need to write one by one flex-grow, flex-shrink and flex-basis property
+    !syntax:
+    flex: flex-growValue, Flex-ShrinkValue, flex-BasisValue
+    */
+}
+.item:nth-child(2){
+    flex-shrink: 1;
+    /* it locks the content then your content never goes into the newline when it is not fit in the same line and if you want to lock your content then put the flex-shrink = 0 then you may see text overflow*/
+    flex-basis: 200px;
+    /* flex-basis lock the width of item container, it doesn't think how much space is available it always take 200px in this scenerio */
+}

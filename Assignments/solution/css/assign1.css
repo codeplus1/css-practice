@@ -1,0 +1,22 @@
+
+ul li{
+    /* list-style-type: none; */
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    color: rgb(255, 213, 0);
+
+}
+
+/* this visited, active properties only work with anchor tag. */
+/* .home:visited{
+color: green;
+}
+
+.home:active{
+    color: chocolate;
+} */

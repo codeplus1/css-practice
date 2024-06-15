@@ -1,0 +1,98 @@
+/*
+!till now we have only learned some basic css things.
+#but
+!box model and layout are important in css.
+Todo: Box model and Layout
+? "Everything in CSS is a Box"
+*Any element in a webpage is a box. Go ahead and inspect any html element from a webpage, go to developer tools, and you will find a graphical represantion of selected box.
+
+#For more about Box model visit:👉 https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+
+# Visit👉 https://www.w3schools.com/css/css_boxmodel.asp
+? 1. Box Model
+* CSS box model is a way to understand how HTML elements are displayed on the web page. It consists of: content, margin, padding and border.
+!A box is made up of 4 properties (i.e Content, Padding,Border, Margin)
+- The width and height properties apply to the content area only.
+
+# CLick Here👉 https://shorturl.at/jEJ89
+?Margin
+* Margin is the space outside of an element's box, it creates seperation between elements.
+
+?Padding
+* Padding is the space inside of an element’s box, between its content and its border.
+
+?Border
+* Border is a line that goes around an element. It can be drawn above or below the content.
+
+?Content Area
+* Content area is the actual content of the element.
+
+Todo: Display Properties
+# Visit👉 https://www.w3schools.com/cssref/pr_class_display.asp
+
+# visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+?Display Properties
+* The display property specifies how an element should be displayed on the page.
+?Values for the display property
+* block - This value displays an element as a block element (like p, h1, div).
+* inline - This value displays an element as an inline element (like span, img, input).
+* inline-block
+
+!⚠️Block vs Inline inline-Block Elements
+- Block elements always start on a new line.
+- Inline elements do not start on a new line.
+- Inline-block elements behave like inline elements, but they also use the vertical height property.
+!final Conclusion ❤️
+ ?inline
+ *Inline element doesn’t start on a new line and only occupy just the width it requires. You can’t set the width or height.
+
+?inline-block
+ * inline-Block is formatted just like the inline element, where it doesn’t start on a new line. BUT, you can set width and height values.
+
+ ?block
+*The Block element will start on a new line and occupy the full width available. And you can set width and height values.
+
+#for more visit👉 https://www.samanthaming.com/pictorials/css-inline-vs-inlineblock-vs-block/
+
+#visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout/Block_and_inline_layout_in_normal_flow
+
+?Box Sizing
+*The box sizing property sets how the total width and height of an element is calulated.
+!Box Sizing are 2 types: 
+1.Content Box
+2.Border Box
+#For more visit: 👉 https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+#visit 👉 https://www.w3schools.com/css/css3_box-sizing.asp
+
+
+
+
+
+
+? 2. Layout
+* In layout, we use CSS rules to position and arrange elements in relation to each other. This includes:
+Todo: Positioning Elements
+?position
+* The position property allows you to specify where an element appears in the layout like absolute, relative, fixed, static, sticky.
+
+?Static Position
+*elements are positioned according to the normal flow of the document.
+
+?Relative position
+*An element with relative positioning is positioned relative to its current position.
+
+?Absolute position
+*An element with absolute positioning is positioned relative to the nearest positioned ancestor or to the initial containing block if no positioned ancestors.
+
+?Fixed position
+*an element with fixed positioning is positioned relative to the viewport (the window).
+
+?Sticky position
+*an element with sticky positioning is positioned based on the user's scroll position.
+
+#visit for position:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+
+*/

@@ -1,0 +1,48 @@
+/* Todo: CSS Flex Box */
+
+/*
+Todo: Introduction to FlexBox
+?What is flexbox?
+*in simple word flexbox is a layout model that provides an effecient way to distribute space and align items in a container.
+*-Flexbox is a modern layout method that allows you to easily create flexible responsive designs.
+*-It provides an efficient way of distributing space within containers, making it easier for developers to design web pages with different screen sizes and resolutions.
+*-It was introduced by the W3C in 2014 and has since been implemented in all major browsers, including IE10+.
+?FlexContainer
+* the parent element that holds flex items.
+*-A container element can be turned into a flex container using the display property with value "flex" or "inline-flex".
+
+Todo: Creating a Flex Container
+?How do we make an HTML element into a flex container?
+*-We can use the display property with value of "flex" or "inline-flex".
+
+?flex items
+*-The child elements within the flex container are called flex items.
+
+Todo: Flex container Properties
+?display
+*- converts an elements into flex container (i.e., block level or inline level.)
+?flex-direction
+*- Determines the direction of the main axis (i.e, row, column, row-reverse, column-reverse)
+?justify-content
+*- Controls alignment along the main axis.(i.e, flex-start, flex-end, center, space-between,space-around.)
+?align-items
+*- controls alignment along the cross axis(i.e, stretch, flex-start, flex-end, baseline, center).
+?flex-wrap
+*- Allows containers to wrap their content onto multiple lines if needed.
+
+
+Todo: Flex item properties
+?flex
+*- it combines 'flex-grow', 'flex-shrink' and 'flex-basic' into one shorthand property.
+?flex-grow
+*- It specifies how much an item should grow in relative to other items.
+?flex-shrink
+*- This determines how much an item should shrink to fit available space it's default value is 1.
+?flex-basis
+*- it sets the initial size of an item along the main axis.
+
+!for more visit:👇❤️
+#1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+#2.https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+*/

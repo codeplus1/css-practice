@@ -1,0 +1,83 @@
+
+/* todo: colors and background*/
+
+/*
+!color Representation
+?Hexadecimal
+*it is a six digit codes that represent colors (#RRGGBB)
+-0 to F for red, green, blue color values 
+-A to F for alpha transparency value
+
+#for more visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+#for more visit:👉 http://web.simmons.edu/~grovesd/comm244/notes/week3/css-colors#:~:text=Probably%20the%20most%20common%20(yet,be%200%2D9%20and%20A%2DF%20.
+
+?RGB
+*It uses three numbers between 0 and 255 separated by commas(R, G, B).
+*it specifies colors using red, green and blue values. (for eg. rgb(190,5,5)
+#for more visit:👉 https://www.w3schools.com/colors/colors_rgb.asp
+
+
+?HSL
+*It represents the hue, saturation, lightness of any given color.
+*hsl(HUE, SATURATION%, LIGHTNESS%)
+*Hue - The degree on the color wheel where the color starts as an angle in degrees.
+*Saturation - A percentage indicating how much saturation added to the base color.
+*Lightness - A number from 0% to 100% representing the amount of white or black mixed into the color.
+#for more visit:👉 https://www.w3schools.com/colors/colors_hsl.asp
+*/
+
+/* todo: Applying colors */
+
+/*
+?color
+*The CSS property 'color' sets the color of text.
+?background color
+*The CSS property 'background-color' sets the background color of an elements.
+
+?border color
+*The CSS property 'border-color' sets the color of borders.
+!for more
+#visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/border-color
+#visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_backgrounds_and_borders
+
+*/
+
+/* Todo: Using Gradients */
+/*
+#visit:👉 https://cssgradient.io/
+#visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient
+*/
+
+/*
+?Liner Gradients
+*Linear gradients are used with the gradient() function. it creates smooth transition between two or more colors in a liner direction.
+*gradient(direction, color stops)
+
+?Radial Gradient
+*radial-gradients use the radial-gradient() function. it creates a circular or elliptical gradient radiating from a center point.
+
+*/
+
+/*
+Todo: working with Backgrounds
+# https://developer.mozilla.org/en-US/search?q=background%20and%20borders
+
+# https://developer.mozilla.org/en-US/docs/Web/CSS/background_and_borders/Using_CSS_multiple
+
+
+?Background-image:
+*The background-image CSS property sets one or more background images on an element.
+
+?Background-repeat
+*The background-repeat CSS property defines how background images are repeated.
+
+?Background-attachment
+*The background-attachment CSS property determines whether a background image is fixed within the viewport ("fixed") or scrolls along with its containing.
+
+?background-size
+*The background-size CSS property sets the size of the background image. It can cover the entire container, or only part of it.
+
+/* #for more about background-image visit👉 https://drafts.csswg.org/css-backgrounds/#propdef-background-image; */
+
+
+

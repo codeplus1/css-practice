@@ -1,0 +1,93 @@
+/* Todo: Typography and Text Styling */
+
+
+/*
+?font-family
+*it specifies the font to be used. it can be list of fonts to provide fallback options.
+
+?font-size
+*it sets the size of the font. it can be defined in various units like pixels, ems, or percentages.
+!note: the default font-size is usually 16px.
+# 16pixel = 1em
+# 16pixel = 100%
+for more visit: https://w3schools.com/cssref/css_units.php
+
+?font-weight
+*it determines the thickness or boldness of the font (e.g. 'normal', 'bold', '700', '600')
+
+?font-style
+*it defines whether a font should be italic or not ('italic' or 'oblique' or 'normal').
+
+?text-transform
+*it changes the capitalization of the text ('uppercase', 'lowercase', 'capitalize')
+
+?text-decoration
+*it is used to set underline, overline, line through etc on the text.
+
+
+*/
+
+/* Todo: working with fonts */
+/*
+?web-Safe Fonts:
+Arial, Helvetica, Times New Roman, Courier, Verdana, Georgia, Trebuchet MS, Tahoma, Lucida , etc are web-safe fonts which is available on our system.
+*Fonts that are available on most system to ensure consistent rendering.
+
+?Google FOnts:
+*fonts provided by Google for better performance and quality. A vast collection of free fonts that can be easily integrated into your project.
+
+*To embed a google font, copy the code into the <head> of your html or if you dont want to embed the link of google font the simply choose the import option.
+
+*Also you can download the font and externally use the fonts in your projects. to do that simply use fontface property like
+@font-face {
+    font-family: ; //set the font-family name as you want then use that font-family name where you want to apply that font.
+    src: url(); // in the url define the route of the fonts.
+}
+
+ */
+
+/* Todo: what is the difference between PX, EM & Percent? */
+/*
+*pixel is the static measurement, while percent and EM are relative measurements. the size of an EM or percent depends on its parent.if the text size of the body is 16px, then 150% or 1.5 EM will be 24px (1.5 x 16).
+*/
+
+/* Todo: Text Decorations and Alignment */
+
+
+/*
+?Text Decoration:
+*add various decoration like: Underline, Overline, Line Through
+
+?text-decoration-line:
+*specifies the type of lines to apply to an element(e.g. underline, overline, linethrough)
+
+!note:⚠️ text decoration and text-decoration-line both are similar we can use anyone but text-decoration is a better choice because it it supported by every browser, even very old ones.
+
+#for more visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line
+?text-decoration-color:
+*Specifies the color of the lines specified by text-decoration-line
+
+?text-decoration-style:
+*Specifies the style of the lines specified by text-decoration-line
+
+?text-align:
+*Aligns text within its container (e.g. left, right, center and justify.)
+
+?lilne-height
+*controls the space between lines of text for better readability.
+
+#for more visit:👉 https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+?vertical-align:
+*The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
+#for more visit 👉 https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+
+?text-transform:
+*Controls capitalization behavior
+
+?letter-spacing:
+*Increases or decreases spacing between characters in a text
+
+*/
+
+/* #for more about length visit:👉 https://css-tricks.com/the-lengths-of-css/#article-header */

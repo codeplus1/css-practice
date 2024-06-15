@@ -1,0 +1,163 @@
+/* Astrick '*' sign is universal selector we have use this universal selector to select our whole body part of HTML document.*/
+
+*{
+    /* background-color: yellow; */
+margin: 0;
+padding: 0;
+/* We have given margin and padding to zero because sometimes the browser have their own default margin and padding value so to make our css style perfect we have done margin and padding = 0 */
+font-family: sans-serif;
+}
+
+/* topbar */
+.Top-Bar{
+    /* search for colorzilla extension to easily copy any color code from any website */
+    background-color: #F8F9FA ;
+    display: flex;
+    /* when i apply display flex then everything in the topbar(i.e social-icon, language and currency converter) comes in oneline */
+    justify-content: space-between;
+    /* when i do space-between then everything palces in their own place by taking same spaces. */
+    padding: 15px;
+    /* when i do padding 15px then from top and bottom padding applies(i.e height increased) to 15px
+    padding: topValue rightValue BottomValue LeftValue
+    #visit: https://www.geeksforgeeks.org/how-to-apply-css-padding-shorthand-property/*/
+    align-items: center;
+}
+/* topbar-social-icons */
+.Social-Icons{
+margin-left: 50px;
+}
+.Social-Icons a{
+    margin-right: 10px;
+    color: #343A40;
+}
+.Shipping-Message{
+    color: #35A29F;
+}
+.Currency-Language{
+    margin-right: 30px;
+}
+.Currency{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    /* border radius do the corner round shape */
+    margin-right: 10px;
+    /* margin-right do the space from right-side into currency and lanuage */
+}
+.Language{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    /* border radius do the corner round shape */
+    color: #757e88;
+}
+
+/* Top-Bar section End */
+
+/* header Start */
+.Main-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35A29F;
+    padding: 20px;
+}
+.Logo{
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.Search-Bar{
+    display: flex;
+    flex-grow: 1;
+    padding: 5px 15px;
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 10px;
+    border: 1px solid #343A40;
+}
+.Search-Bar input{
+    display: flex;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.Search-Bar button{
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Search-Bar .Icons{
+    margin-right: 50px ;
+}
+
+.Icons a{
+    color: #F8F9FA;
+    margin-left: 10px;
+}
+
+
+/* header End */
+
+/* Navigation Menu start */
+.Nav-Menu{
+    display: flex;
+    justify-content: center;
+}
+.Nav-Menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #343A40;
+    font-size: 18px;
+    padding: 15px 10px;
+    transition: ease-in-out .5s;
+}
+.Nav-Menu a:hover{
+    color: #35A29F;
+}
+/* Navigation Menu END */
+
+/* hero section start */
+.Hero{
+    height: 200px;
+    background-image: url(/Project/images/blue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+}
+
+.Hero-Content{
+    color: #F8F9FA;
+    max-width: 1200px;
+    margin: 100px 0px 0px 0px;
+    /* margin: top left bottom right */
+    text-align: center;
+}
+.Hero-Content h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.Hero-Content p{
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+.Hero-Content .btn{
+    background-color: #35A29F;
+    color: #F8F9FA;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Hero-Content .btn:hover{
+    color: #35A29F;
+    background-color: #F8F9FA;
+    transition: all ease .3s;
+}
+/* hero section End */

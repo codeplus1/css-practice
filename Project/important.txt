@@ -1,0 +1,8 @@
+1. Always use your javascript file between <script></script> tag after </body> element.
+2. Always use your CSS file after <Head> tag.
+
+3. you can use premium icon by downloading it from some website.
+visit
+https://icons8.com/icons/set/website
+https://uxwing.com/
+https://www.freepik.com/

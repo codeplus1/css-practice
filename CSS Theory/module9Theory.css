@@ -1,0 +1,46 @@
+/* Todo: CSS Transition and Animation */
+
+/*
+!visit
+#1 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+#2. https://cssreference.io/property/transition-timing-function/#transition-timing-function
+*/
+
+/*
+Todo: CSS Transition
+?Transition
+*- It create smooth animations between two states of an element.
+*- The transition property is shorthand for the four properties: transition-property, transition-duration, transition-timing-function, and transition-delay.
+?transition-property
+*- Specifies the name or names of one or more properties to which a transition effect should be applied.
+?transition-duration
+*- Specifies how long time it takes for a property to change during a transition from one state to another, in seconds or milliseconds.
+?transition-timing-function
+*- Defines how the values between the start and the end of the transition are calculated. default transition-timing-function: ease; The transition starts slowly, accelerates in the middle, and slows down at the end.
+# visit https://cssreference.io/property/transition-timing-function/#transition-timing-function
+
+?transition-delay
+*- The delay for the start of the transition effect specified in seconds (s) or milliseconds (ms).
+#Visit https://cssreference.io/property/transition-delay/
+
+
+Todo: CSS Animation
+#Visit👉 https://developer.chrome.com/blog/entry-exit-animations/
+?Animation
+*- It creates dynamic effects on elements by defining how they change over time, such as rotation, color changes, sliding etc.
+
+?keyframe
+*- it define the animation stages using percentage.
+?animation
+*- combines animation properties, such as name, duration, timing function, delay, iteration count, and direction.
+
+*/
+
+/*
+!⚠️Transition and Animation both are different things so don't Mix it up
+*transition are only applied to the colors, background-colors, text, links, image etc...
+!but
+*animation is used to apply smoothness(like hover effects) inside text, background-color, images, links and etc..
+
+*/
