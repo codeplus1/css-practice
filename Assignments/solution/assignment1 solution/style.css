@@ -33,12 +33,13 @@ footer ul li{
 footer ul li a{
 color: #ffff;
 text-decoration: none;
-font-size: 1.2em;
-font-weight: lighter;
+font-size: 1.1em;
+font-weight: 100;
 }
 
 footer ul li a:hover{
-    color: #f41010;
+    color:  #1e83b6;
+    transition: 0.3s ease-in-out;
 }
 
 .socials{
@@ -48,14 +49,28 @@ footer ul li a:hover{
     width: 100%;
 }
 
-.socials a{
+
+.socials a {
     color: #a5a3a3;
     font-size: 1.1em;
+    display: flex;
+    transition: color 0.3s ease-in-out;
 }
 
-.socials a:hover{
-    color: #fff;
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at normal position */
+    }
+    50% {
+        transform: translateY(-10px); /* Move up */
+    }
 }
+
+.socials a:hover {
+    color: #1e83b6;
+    animation: moveUpDown 0.5s ease-in-out; /* Move up and down once */
+}
+
 
 .info{
     display: flex;
