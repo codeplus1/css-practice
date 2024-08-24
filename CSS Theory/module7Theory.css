@@ -6,7 +6,8 @@ Todo: Introduction to FlexBox
 *in simple word flexbox is a layout model that provides an effecient way to distribute space and align items in a container.
 *-Flexbox is a modern layout method that allows you to easily create flexible responsive designs.
 *-It provides an efficient way of distributing space within containers, making it easier for developers to design web pages with different screen sizes and resolutions.
-*-It was introduced by the W3C in 2014 and has since been implemented in all major browsers, including IE10+.
+*-It was introduced by the W3C (world wide web Consortium) in 2014 and has since been implemented in all major browsers, including IE10+ (Internet Explorer).
+
 ?FlexContainer
 * the parent element that holds flex items.
 *-A container element can be turned into a flex container using the display property with value "flex" or "inline-flex".

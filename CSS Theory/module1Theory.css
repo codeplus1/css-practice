@@ -1,14 +1,22 @@
 /* module 1: introduction to css */
 /*# visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/background_and_borders/Using_CSS_multiple */
 
-/* TODO: introduction 
+/* TODO: introduction
 *css (cascading style sheet) is a crucial component of web development that allows us to style and visually design web pages. it is used to control the layout, colors, typography, and other visual aspects of our HTML content.
+*css is essential for creating visually appealing and user-friendly web pages. it helps to improve the user experience by making the content more readable, accessible, and engaging.
+
+TODO: Importance of CSS
+* CSS minimizes the amount of code needed to style multiple elements by using classes, IDs, and reusable style rules, resulting in cleaner and more efficient code.(It helps to create reusable classes and style rules.)
+* it allows us to style and visually design web pages.
+* it is used to control the layout, colors, typography and other visual aspects of HTML content.
+* it is used for creating user-friendly webpages.
+* it helps to improves the user experiene.
 */
 
 /* TODO: Types of CSS:
 *Inline CSS
 *Internal CSS
-*External CSS 
+*External CSS
 */
 
 /* Todo: Inline CSS */

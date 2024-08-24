@@ -1,18 +1,17 @@
-
 /* Todo: Selector and Declarations */
 /* ?Selectors: it determines which HTML elements the styles should be applied to. selectors can be based on element name, class name, IDs, attributes and more. */
 
 /* ?Declaration: it consists of property-value pairs enclosed in curly braces "{}". Each declaration specify how a particular property should be styled (e.g., "Color:blue") */
 
 /* Todo: Basic Types of CSS selectors */
-/* 
-?Element Selector: 
+/*
+?Element Selector:
 *It target specific HTML elements (e.g., p, h1, div, h2, h5, etc...) for styling
 
-?class Selector: 
+?class Selector:
 *It target elements with a specific class attribute (e.g, '.highlight' , '.myclass', etc... ) to apply shared styles.
 
-?ID selector: 
+?ID selector:
 *It target a unique element with specific ID attribute (e.g., '#header', '#saroj', etc..) for individual styling.
 
 ?Descendent Selector:
@@ -27,8 +26,6 @@
 #for_More_Visit👉 https://w3schools.com/cssref/css_selectors.php
 #visit👉 https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
 */
-
-
 
 /* Todo: Advance Types of CSS selectors */
 /*

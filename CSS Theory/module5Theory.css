@@ -11,7 +11,7 @@ Todo: Box model and Layout
 # Visit👉 https://www.w3schools.com/css/css_boxmodel.asp
 ? 1. Box Model
 * CSS box model is a way to understand how HTML elements are displayed on the web page. It consists of: content, margin, padding and border.
-!A box is made up of 4 properties (i.e Content, Padding,Border, Margin)
+!A box is made up of 4 properties (i.e Content, Padding, Border, Margin)
 - The width and height properties apply to the content area only.
 
 # CLick Here👉 https://shorturl.at/jEJ89
@@ -59,16 +59,12 @@ Todo: Display Properties
 
 ?Box Sizing
 *The box sizing property sets how the total width and height of an element is calulated.
-!Box Sizing are 2 types: 
+!Box Sizing are 2 types:
 1.Content Box
 2.Border Box
 #For more visit: 👉 https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 
 #visit 👉 https://www.w3schools.com/css/css3_box-sizing.asp
-
-
-
-
 
 
 ? 2. Layout
