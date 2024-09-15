@@ -1,3 +1,4 @@
+/* index.html page css start ===================*/
 body{
     background-color: #a5a3a3;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,23 +51,23 @@ footer ul li a:hover{
 }
 
 
-.socials a {
+.socials a{
     color: #a5a3a3;
     font-size: 1.1em;
     display: flex;
     transition: color 0.3s ease-in-out;
 }
 
-@keyframes moveUpDown {
-    0%, 100% {
+@keyframes moveUpDown{
+    0%, 100%{
         transform: translateY(0); /* Start and end at normal position */
     }
-    50% {
+    50%{
         transform: translateY(-10px); /* Move up */
     }
 }
 
-.socials a:hover {
+.socials a:hover{
     color: #1e83b6;
     animation: moveUpDown 0.5s ease-in-out; /* Move up and down once */
 }
@@ -98,3 +99,31 @@ footer ul li a:hover{
 }
 
 /* Now all set footer is complete with responsiveness.  */
+/* index.html page css end ===================*/
+
+
+/* Navbar.html page css start ===================*/
+
+ul li{
+    /* list-style-type: none; */
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    color: rgb(255, 213, 0);
+
+}
+
+/* this visited, active properties only work with anchor tag. */
+/* .home:visited{
+color: green;
+}
+
+.home:active{
+    color: chocolate;
+} */
+
+/* Navbar.html page css end ===================*/
